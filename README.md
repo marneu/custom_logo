@@ -13,4 +13,6 @@ Set the following options directly in Roundcube's main config file or via
 
 $config['custom_logo_url'] = 'plugins/custom_logo/images/%d_logo.png'; // %d ~ default user email domain part
 
+Homepage:
+http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
 

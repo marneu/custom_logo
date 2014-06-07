@@ -1,0 +1,30 @@
+{
+    "name": "marneu/custom_logo",
+    "type": "roundcube-plugin",
+    "description": "Plugin to set a custumized logo within a roundcube session and print outs.",
+    "keywords": ["customize", "logo"],
+    "license": "GNU GPL-3.0+",
+    "authors": [
+        {
+            "name": "Markus Neubauer",
+            "email": "mn-rc-plugin@std-service.com",
+            "homepage":"http://github.com/marneu/custom_logo",
+            "role": "Develovper"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "roundcube/plugin-installer": ">=0.1.2"
+    },
+    "extra": {
+    "roundcube": {
+      "min-version": "1.0"
+    }
+  }
+}

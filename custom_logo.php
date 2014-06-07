@@ -1,3 +1,5 @@
+<?php
+
 /**
  * CustomLogo
  *
@@ -9,6 +11,7 @@
  * v1.2 inspired by Cassiano Aquino  caquino @ team.br.inter.net 
   *     improved error handling
  */
+
 class custom_logo extends rcube_plugin
 {
     // all task excluding 'login' and 'logout'

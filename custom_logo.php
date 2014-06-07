@@ -5,7 +5,7 @@
  *
  * @version 1.2
  * @author Markus Neubauer @ std-service.com
- * @http://www.std-soft.com/bfaq/52-cat-webmail/106-eigenes-logo-in-roundcube-einblenden.html
+ * @http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
  * v1.2 inspired by Cassiano Aquino  caquino @ team.br.inter.net 
   *     improved error handling
  */

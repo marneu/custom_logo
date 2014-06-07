@@ -1,0 +1,15 @@
+<?php
+
+/* custom logo plugin */
+
+/*
+  $rcmail_config['custom_logo_url'] = '%d'; resolve users standard identity email domain
+        i.e. after logout name@domain.de will return domain.de
+*/
+
+/*
+  http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
+*/
+$rcmail_config['custom_logo_url'] = 'plugins/custom_logo/images/%d_mail.png'; // %d ~ default user email domain part
+
+?>

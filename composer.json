@@ -1,7 +1,7 @@
 {
     "name": "marneu/custom_logo",
     "type": "roundcube-plugin",
-    "description": "Plugin to set a custumized logo within a roundcube session and print outs.",
+    "description": "Plugin to set a custumized logo within a roundcube session and print out.",
     "keywords": ["customize","logo","print"],
     "license": "GNU GPL-3.0+",
     "authors": [

@@ -16,8 +16,9 @@ Set the following options directly in Roundcube's main config file or via
 // common logo in case the custom logo does not exist
 // $rcmail_config['common_logo_url'] = '/skins/classic/images/roundcube_logo.png';
 $rcmail_config['common_logo_url'] = './plugins/custom_logo/images/default_mail.png';
-/* %d will be replaced default user email/identity domain part
-      i.e. after logout name@domain.de will return domain.de */
+
+/* %d will be replaced with the default user identity email domain part
+      i.e. email@domain.com will return in %d "domain.com" */
 $rcmail_config['custom_logo_url'] = './plugins/custom_logo/images/%d_mail.png';
 ```
 

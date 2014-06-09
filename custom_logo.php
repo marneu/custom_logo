@@ -8,9 +8,10 @@
  * @version 1.3
  * @author Markus Neubauer @ std-service.com
  * @http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
- * v1.2 inspired by Cassiano Aquino  caquino @ team.br.inter.net 
+ * v1.2 inspired by Cassiano Aquino (caquino @ team.br.inter.net)
   *     improved error handling
- * v1.3 changed to jquery and added common_log in case custom_logo fails
+ * v1.3 inspired by Fabien Amann (rholala_logo) adopted "toplogo" from larry skin
+  *     MN: changed to jquery and added common_logo as default fallback in case custom_logo fails
  */
 
 class custom_logo extends rcube_plugin

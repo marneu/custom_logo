@@ -4,8 +4,8 @@ custom_logo
 Roundcube Webmail Plugin Customize Logo in Session and Print (can depend on domain)
 
 Plugin to load a different logo within a Round Cube Session and for print out.
-The logo can depend on the domain name (not a must) if you have diffent customers.
-A other default logo can be displayed in case there is no custom_logo available.
+The logo can depend on the domain name (not a must) if you have more than one user group.
+An other default logo can be displayed in case there is no custom_logo available.
 
 Download and install via http://plugins.roundcube.net
 

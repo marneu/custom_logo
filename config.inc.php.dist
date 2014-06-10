@@ -5,12 +5,12 @@
 */
 // common logo in case the custom logo does not exist
 // $rcmail_config['common_logo_url'] = '/skins/classic/images/roundcube_logo.png';
-// $rcmail_config['common_logo_url'] = './plugins/custom_logo/images/default_mail.png';
+// $rcmail_config['common_logo_url'] = './plugins/custom_logo/media/default_mail.png';
 $rcmail_config['common_logo_url'] = false;
 
 /* %d will be replaced default user email/identity domain part
       i.e. after logout name@domain.de will return domain.de */
-// $rcmail_config['custom_logo_url'] = './plugins/custom_logo/images/%d_mail.png';
+// $rcmail_config['custom_logo_url'] = './plugins/custom_logo/media/%d_mail.png';
 $rcmail_config['custom_logo_url'] = false;
 
 ?>

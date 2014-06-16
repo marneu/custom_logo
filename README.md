@@ -6,6 +6,7 @@ Roundcube Webmail Plugin Customize Logo in Session and Print (can depend on doma
 Plugin to load a different logo within a Round Cube Session and for print out.
 The logo can depend on the domain name (not a must) if you have more than one user group.
 An other default logo can be displayed in case there is no custom_logo available.
+This plugin is intended to be used with default and larry Roundcube skin.
 
 Download and install via http://plugins.roundcube.net
 

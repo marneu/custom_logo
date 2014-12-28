@@ -5,7 +5,7 @@
  *
  * Plugin to add a customized logo on printout and mail view
  *
- * @version 1.3
+ * @version 1.4
  * @author Markus Neubauer @ std-service.com
  * @http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
  * v1.2 inspired by Cassiano Aquino (caquino @ team.br.inter.net)

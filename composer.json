@@ -4,7 +4,7 @@
     "description": "Plugin to set a custumized logo within a roundcube session and print out.",
     "keywords": ["customize","mail","logo","print"],
     "license": "GNU GPLv3+",
-    "version": "1.3",
+    "version": "1.4",
     "authors": [
         {
             "name": "Markus Neubauer",

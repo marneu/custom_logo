@@ -65,6 +65,7 @@ class custom_logo extends rcube_plugin
 		    $addstr .= '$(document).ready(function() {';
                     $addstr .=   'var logo=\'#toplogo\';';
 		    $addstr .=   'if ($(logo).length == 0 ) logo=\'#logo\';';
+                    $addstr .=   'if ($(logo).length == 0 ) return;';
 		    $addstr .=   '$(logo).hide();';
 		    if ( $this->common_logo ) {
                       $addstr .= '$(logo).error(function() {';

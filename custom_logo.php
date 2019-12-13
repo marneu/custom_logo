@@ -5,7 +5,7 @@
  *
  * Plugin to add a customized logo on printout and mail view
  *
- * @version 1.4
+ * @version 1.4.1
  * @author Markus Neubauer @ std-service.com
  * @http://www.std-soft.com/index.php/hm-service/81-c-std-service-code/4-rc-plugin-custom-logo-eigenes-logo-in-der-roundcube-session-setzen
  * v1.2 inspired by Cassiano Aquino (caquino @ team.br.inter.net)
@@ -47,7 +47,7 @@ class custom_logo extends rcube_plugin
                 if ( $this->custom_logo and (preg_match('/%d/',$this->custom_logo) 
                         || (preg_match('/^http[s]:/',$this->custom_logo) and !get_headers($this->custom_logo))) )
                                 $this->custom_logo = false;
-                if ( $rcmail->config->get('common_logo_url') ) $this->common_logo = $rcmail->config->get('common_logo_url');
+                if ( $rcmail->config->get('skin_logo') ) $this->common_logo = $rcmail->config->get('skin_logo');
         }
 
         public function add_custom_logo($arg)
